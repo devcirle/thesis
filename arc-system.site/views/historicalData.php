@@ -27,7 +27,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="header-wrapper">
+      <!-- <div class="header-wrapper">
         <div class="header">
           <img src="../assets/images/logo-dark.png" alt="" />
           <h1><a href="dashboard.php">ARC SYSTEM</a></h1>
@@ -35,7 +35,7 @@
         <div class="title">
           <h2>GROWTH DATA</h2>
         </div>
-      </div>
+      </div> -->
       <div class="content">
         <div class="dataCard">
           <?php 
@@ -87,34 +87,48 @@
         </div>
 
       </div>
+      <p class="definition">In the monthly summary view, users can conveniently see summarized data on the size and weight of their crayfish, offering a clear picture of growth patterns over time.</p>
       <div class="nav-bar">
+        <div class="headerNav">
+          <span></span>
+          <img src="../assets/images/banner.png" alt="">
+          <!-- <h1>ARC SYSTEM</h1> -->
+        </div>
         <nav>
           <li class="default">
             <a href="dashboard.php">
-              <hr />
-              <span class="material-symbols-outlined">dashboard</span>
-              <h3>Dashboard</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">dashboard</span>
+                <h3>Dashboard</h3>
+              </div>
             </a>
           </li>
           <li class="default">
             <a href="control.php">
-              <hr />
-              <span class="material-symbols-outlined">valve</span>
-              <h3>Control</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">valve</span>
+                <h3>Control</h3>
+              </div>
             </a>
           </li>
           <li class="active">
             <a href="data.php">
-              <hr />
-              <span class="material-symbols-outlined">monitoring</span>
-              <h3>Data</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">monitoring</span>
+                <h3>Data</h3>
+              </div>
             </a>
           </li>
           <li class="default">
             <a href="menu.php">
-              <hr />
-              <span class="material-symbols-outlined">menu</span>
-              <h3>Menu</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">menu</span>
+                <h3>Menu</h3>
+              </div>
             </a>
           </li>
         </nav>

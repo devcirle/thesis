@@ -25,7 +25,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="header-wrapper">
+      <!-- <div class="header-wrapper">
         <div class="header">
           <img src="../assets/images/logo-dark.png" alt="" />
           <h1><a href="dashboard.php">ARC SYSTEM</a></h1>
@@ -33,45 +33,62 @@
         <div class="title">
           <h2>DASHBOARD</h2>
         </div>
-      </div>
+      </div> -->
+      
       <div class="content">
         <iframe
-          src="http://localhost:1880/ui/#!/0?socketid=84bcPgNXaBsQ2SW6AAAB"
+          src="http://192.168.1.82:1880/ui/#!/0?socketid=84bcPgNXaBsQ2SW6AAAB"
           frameborder="0"
         ></iframe>
       </div>
+      <p class="definition">The dashboard provides easy-to-understand information about your crayfish's surroundings, including food supply, oxygen levels, water clarity, dissolved substances, and temperature, helping owners keep their crayfish's habitat in check effortlessly.</p>
       <div class="nav-bar">
+        <!-- <div class="headerNav"></div> -->
+        <div class="headerNav">
+          <span></span>
+          <img src="../assets/images/banner.png" alt="">
+          <!-- <h1>ARC SYSTEM</h1> -->
+        </div>
         <nav>
           <li class="active">
             <a href="dashboard.php">
-              <hr />
-              <span class="material-symbols-outlined">dashboard</span>
-              <h3>Dashboard</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">dashboard</span>
+                <h3>Dashboard</h3>
+              </div>
             </a>
           </li>
           <li class="default">
             <a href="control.php">
-              <hr />
-              <span class="material-symbols-outlined">valve</span>
-              <h3>Control</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">valve</span>
+                <h3>Control</h3>
+              </div>
             </a>
           </li>
           <li class="default">
             <a href="data.php">
-              <hr />
-              <span class="material-symbols-outlined">monitoring</span>
-              <h3>Data</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">monitoring</span>
+                <h3>Data</h3>
+              </div>
             </a>
           </li>
           <li class="default">
             <a href="menu.php">
-              <hr />
-              <span class="material-symbols-outlined">menu</span>
-              <h3>Menu</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">menu</span>
+                <h3>Menu</h3>
+              </div>
             </a>
           </li>
         </nav>
       </div>
+      
     </div>
   </body>
 </html>

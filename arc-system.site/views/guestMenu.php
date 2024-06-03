@@ -18,7 +18,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="header-wrapper">
+      <!-- <div class="header-wrapper">
         <div class="header">
           <img src="../assets/images/logo-dark.png" alt="" />
           <h1><a href="dashboard.php">ARC SYSTEM</a></h1>
@@ -26,7 +26,7 @@
         <div class="title">
           <h2>MENU</h2>
         </div>
-      </div>
+      </div> -->
       <div class="content">
         <div class="dropdown">
           <div class="select">
@@ -46,26 +46,37 @@
         <a href="logout.php"><button class="logout-btn">Log Out</button></a>
       </div>
       <div class="nav-bar">
+        <div class="headerNav">
+          <span></span>
+          <img src="../assets/images/banner.png" alt="">
+          <!-- <h1>ARC SYSTEM</h1> -->
+        </div>
         <nav>
           <li class="default">
             <a href="guestDash.php">
-              <hr />
-              <span class="material-symbols-outlined">dashboard</span>
-              <h3>Dashboard</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">dashboard</span>
+                <h3>Dashboard</h3>
+              </div>
             </a>
           </li>
           <li class="default">
             <a href="guestData.php">
-              <hr />
-              <span class="material-symbols-outlined">monitoring</span>
-              <h3>Data</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">monitoring</span>
+                <h3>Data</h3>
+              </div>
             </a>
           </li>
           <li class="active">
             <a href="guestMenu.php">
-              <hr />
-              <span class="material-symbols-outlined">menu</span>
-              <h3>Menu</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">menu</span>
+                <h3>Menu</h3>
+              </div>
             </a>
           </li>
         </nav>

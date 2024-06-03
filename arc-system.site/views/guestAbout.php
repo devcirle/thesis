@@ -25,7 +25,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="header-wrapper">
+      <!-- <div class="header-wrapper">
         <div class="header">
           <img src="../assets/images/logo-dark.png" alt="" />
           <h1><a href="dashboard.php">ARC SYSTEM</a></h1>
@@ -33,57 +33,98 @@
         <div class="title">
           <h2>ABOUT</h2>
         </div>
-      </div>
+      </div> -->
       <div class="contentAbout">
+        <span class="top"></span>
+        <p><b >RECIRCULATING AQUACULTURE SYSTEM</b></p>
         <div class="explanation">
-          <p><b>RAS</b></p>
           <p>A recirculating aquaculture system (RAS) is a fish farming method that recycles water, using tanks or ponds and a filtration system to maintain water quality. It offers controlled conditions, efficient water use, and higher stocking densities compared to traditional methods.</p>
         </div>
+        <p><b>COMPONENTS</b></p>
         <div class="components">
-          <p><b>COMPONENTS</b></p>
-          <p><b>Pond</b> - The Living Space for the Crayfish and where the water quality parameters located.</p>
-          <p><b>Vortex Filtration</b> - Pre-filter by separating larger solids through  circular motion.</p>
-          <p><b>Mechanical Filtration</b> - Captures suspended solids through screens or media.</p>
-          <p><b>Biological Filtration</b> - Employs beneficial bacteria to break down ammonia into nitrite and then nitrate using K1 Media.</p>
-          <p><b>Aeration System</b> - Ensures adequate dissolved oxygen level for crayfish.</p>
-          <p><b>Sump</b> - Reservoir for collecting water from the pond prior to recirculation into the system.</p>
-          <p><b>Monitoring and Control System</b> - Uses sensors and controllers to manage system parameters, pumps and solenoid valves.</p>
-          <p><b>Feeder System</b> - Automated device that dispense food for the crayfish.</p>
-          <p><b>Solenoid Valves</b> - It control the water flow within the system.</p>
-          <p><b>Azolla Pond</b> - Provides supplemental feed and aids in nutrient recycling.</p>
+          <p><b>Pond</b> <br>- The Living Space for the Crayfish and where the water quality parameters located.</p>
+          <p><b>Vortex Filtration</b> <br> - Pre-filter by separating larger solids through  circular motion.</p>
+          <p><b>Mechanical Filtration</b> <br>- Captures suspended solids through screens or media.</p>
+          <p><b>Biological Filtration</b> <br>- Employs beneficial bacteria to break down ammonia into nitrite and then nitrate using K1 Media.</p>
+          <p><b>Aeration System</b> <br>- Ensures adequate dissolved oxygen level for crayfish.</p>
+          <p><b>Sump</b> <br>- Reservoir for collecting water from the pond prior to recirculation into the system.</p>
+          <p><b>Monitoring and Control System</b> <br>- Uses sensors and controllers to manage system parameters, pumps and solenoid valves.</p>
+          <p><b>Feeder System</b> <br>- Automated device that dispense food for the crayfish.</p>
+          <p><b>Solenoid Valves</b><br> - It control the water flow within the system.</p>
+          <p><b>Azolla Pond</b> <br>- Provides supplemental feed and aids in nutrient recycling.</p>
         </div>
+        <br>
+        <p><b>ABOUT US</b></p>
         <div class="profiles">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
+          <div class="profile">
+            <img src="../assets/images/duldulao.png" alt="">
+            <p>Duldulao, James</p>
           </div>
+
+          <div class="profile">
+            <img src="../assets/images/fuentes.png" alt="">
+            <p>Fuentes, Eric</p>
+          </div>
+
+          <div class="profile">
+            <img src="../assets/images/gubac.png" alt="">
+            <p>Gubac, Neljan Earl</p>
+          </div>
+
+          <div class="profile">
+            <img src="../assets/images/guillermo.png" alt="">
+            <p>Guillermo, Neil Ritzson</p>
+          </div>
+
+          <div class="profile">
+            <img src="../assets/images/valencia.png" alt="">
+            <p>Valencia, Jerico</p>
+          </div>
+
+          <div class="profile">
+            <img src="../assets/images/yoro.png" alt="">
+            <p>Yoro, Richie Ritz</p>
+          </div>
+
+          <div class="profile">
+            <img src="../assets/images/galutira.png" alt="">
+            <p>Galutira, Edwin</p>
+          </div>  
+        </div>
 
       </div>
       <div class="nav-bar">
+        <div class="headerNav">
+          <span></span>
+          <img src="../assets/images/banner.png" alt="">
+          <!-- <h1>ARC SYSTEM</h1> -->
+        </div>
         <nav>
           <li class="default">
             <a href="guestDash.php">
-              <hr />
-              <span class="material-symbols-outlined">dashboard</span>
-              <h3>Dashboard</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">dashboard</span>
+                <h3>Dashboard</h3>
+              </div>
             </a>
           </li>
           <li class="default">
             <a href="guestData.php">
-              <hr />
-              <span class="material-symbols-outlined">monitoring</span>
-              <h3>Data</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">monitoring</span>
+                <h3>Data</h3>
+              </div>
             </a>
           </li>
           <li class="active">
             <a href="guestMenu.php">
-              <hr />
-              <span class="material-symbols-outlined">menu</span>
-              <h3>Menu</h3>
+              <!-- <hr /> -->
+              <div class="navBtn">
+                <span class="material-symbols-outlined">menu</span>
+                <h3>Menu</h3>
+              </div>
             </a>
           </li>
         </nav>

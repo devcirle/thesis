@@ -24,6 +24,46 @@ a {
   cursor: pointer;
 }
 
+b {
+  font-weight: 500;
+}
+
+.top {
+  margin-top: 3rem;
+}
+
+.profiles {
+  margin-bottom: 3rem;
+}
+
+.explanation,
+.components,
+.profiles {
+  border-radius: 1rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.profile {
+  flex: 0 0 calc(50% - 0.5rem); /* 50% width minus half of the gap */
+  max-width: calc(50% - 0.5rem);
+}
+
 .about-btn {
   cursor: pointer;
 }
